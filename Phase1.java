@@ -48,6 +48,7 @@ public class Phase1 {
 		  try {
 		      Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
 		      
+		      // prepared statements with parameterized queries prevents SQL Injection
 		      PreparedStatement stmt = conn.prepareStatement("INSERT INTO user (username, password, firstName, lastName, email) VALUES (?, ?, ?, ?, ?)");
 		      stmt.setString(1, username);
 		      stmt.setString(2, password);
@@ -58,12 +59,12 @@ public class Phase1 {
 		      int affectedRows = stmt.executeUpdate();
 	
 		      if (affectedRows == 1) {
-		    	  //System.out.println("User registered successfully.");
+		    	  //User registered successfully
 		    	  conn.close();
 		    	  return 1;
 		      }
 		      else {
-		    	  //System.out.println("Failed to register user.");
+		    	  //Failed to register user
 		    	  conn.close();
 		    	  return 0;
 		      }
@@ -77,6 +78,7 @@ public class Phase1 {
 		  try {
 		      Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
 		      
+		   // prepared statements with parameterized queries prevents SQL Injection
 		      PreparedStatement stmt = conn.prepareStatement("SELECT * FROM user WHERE username = ? AND password = ?");
 		      stmt.setString(1, username);
 		      stmt.setString(2, password);
@@ -84,12 +86,12 @@ public class Phase1 {
 		      ResultSet rs = stmt.executeQuery();
 		      
 		      if (rs.next()) {
-		    	 // System.out.println("User logged in successfully.");
+		    	 // User logged in successfully
 		    	  conn.close(); 
 		    	  return 1;
 		      }
 		      else {
-		    	  //System.out.println("Invalid username or password.");
+		    	  //Invalid username or password
 		    	  conn.close(); 
 		    	  return 0;
 		      }
@@ -99,8 +101,8 @@ public class Phase1 {
 		return 0;
 	  }
 	  
+	  // -----------------------------------TESTING------------------------------------------
 	  public static void main(String[] args) throws SQLException {
-		  
 		//create database (also re-creates)
 		initializeDatabase();  
 	    
