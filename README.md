@@ -9,4 +9,3 @@ Daniel Ranchpar (Back-End + YouTube))
 Julia Haller  (GUI + Logic)  
 Domenick Brizuela (Back-End + GUI Logic)  
 
-YouTube Link:  https://www.youtube.com/watch?v=iupjJhDmTvY
