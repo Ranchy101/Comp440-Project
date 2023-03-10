@@ -9,5 +9,6 @@ Daniel Ranchpar (Back-End + YouTube))
 Julia Haller  (GUI + Logic)  
 Domenick Brizuela (Back-End + GUI Logic)  
 
-Instructions: Run the Phase1GUI.java file.   Make sure mysql-connect-j-8.0.32.jar is 
-added to the classpath for the project as an external jar.
+Instructions:  
+1. Run the Phase1GUI.java file.      
+2. Make sure mysql-connect-j-8.0.32.jar is added to the classpath for the project as an external jar.
