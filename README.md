@@ -1,4 +1,5 @@
-Comp440 Project   
+Comp440 Project 
+Team 34  
 Monday/Wednesday ONLINE Class  
 2:30:3:45 PM  
 
