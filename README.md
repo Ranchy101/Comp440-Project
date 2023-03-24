@@ -9,7 +9,7 @@ Phase 2: https://www.youtube.com/watch?v=zx84UKWfJZU
 
 Contributors:  
 Daniel Ranchpar (Back-End + YouTube))   
-Julia Haller  (GUI + Logic)  
+Julia Haller  (GUI + Back-End Logic)  
 Domenick Brizuela (Back-End + GUI Logic)  
 
 Instructions:  
