@@ -3,7 +3,9 @@ Team 34
 Monday/Wednesday ONLINE Class  
 2:30:3:45 PM  
 
-YouTube Demo: https://www.youtube.com/watch?v=iupjJhDmTvY  
+YouTube Demos  
+Phase 1: https://www.youtube.com/watch?v=iupjJhDmTvY  
+Phase 2: https://www.youtube.com/watch?v=zx84UKWfJZU  
 
 Contributors:  
 Daniel Ranchpar (Back-End + YouTube))   
