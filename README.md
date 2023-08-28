@@ -6,6 +6,7 @@ Monday/Wednesday ONLINE Class
 YouTube Demos  
 Phase 1: https://www.youtube.com/watch?v=iupjJhDmTvY  
 Phase 2: https://www.youtube.com/watch?v=zx84UKWfJZU  
+Phase 3: https://www.youtube.com/watch?v=NtDJAhjVeXQ
 
 Contributors:  
 Daniel Ranchpar (Back-End + YouTube))   
